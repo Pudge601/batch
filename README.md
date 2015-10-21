@@ -12,7 +12,7 @@ the work asynchronously and pausing between batches of work.
 
 Map an array, doubling each value.
 ```javascript
-var batch = require('batch');
+var batch = require('jsbatch');
 
 batch.map([1, 2, 3, 4, 5], function(x) { return 2 * x; })
     .then(function(mapped) {
