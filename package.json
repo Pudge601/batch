@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pudge601/batch.git"
+  },
   "keywords": [
     "batch",
     "promise",
@@ -14,7 +18,7 @@
     "map",
     "reduce"
   ],
-  "author": "Martin Price",
+  "author": "Martin Price <pudge601@hotmail.com> (https://github.com/Pudge601)",
   "dependencies": {
     "promise": "7.x.x"
   },
