@@ -19,6 +19,12 @@
     "reduce"
   ],
   "author": "Martin Price <pudge601@hotmail.com> (https://github.com/Pudge601)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Pudge601/jsbatch/blob/master/LICENSE-MIT"
+    }
+  ],
   "dependencies": {
     "promise": "7.x.x"
   },
