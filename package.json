@@ -1,0 +1,29 @@
+{
+  "name": "jsbatch",
+  "version": "1.0.0",
+  "description": "Asynchronous batch iteration of arrays returning promises",
+  "main": "src/batch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "batch",
+    "promise",
+    "array",
+    "process",
+    "map",
+    "reduce"
+  ],
+  "author": "Martin Price",
+  "dependencies": {
+    "promise": "7.x.x"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.2",
+    "uglify-js": "^2.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
