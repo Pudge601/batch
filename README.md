@@ -1,4 +1,6 @@
-# Batch Iterator for NodeJS and Browser JavaScript
+# jsbatch
+
+## Batch Iterator for NodeJS and Browser
 
 A module for providing asynchronous batch iteration of arrays, using promises for callbacks.
 
