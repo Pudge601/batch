@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Pudge601/batch.git"
+    "url": "git://github.com/Pudge601/jsbatch.git"
   },
   "keywords": [
     "batch",
@@ -31,6 +31,6 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "bugs": {
-    "url": "https://github.com/Pudge601/batch/issues"
+    "url": "https://github.com/Pudge601/jsbatch/issues"
   }
 }
