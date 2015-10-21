@@ -1,6 +1,6 @@
 # Batch Iterator for NodeJS and Browser JavaScript
 
-A module for providing asynchronous batch iteration of arrays, returning promises.
+A module for providing asynchronous batch iteration of arrays, using promises for callbacks.
 
 ## Example
 
