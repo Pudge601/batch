@@ -1,7 +1,7 @@
 {
   "name": "jsbatch",
   "version": "1.0.0",
-  "description": "Asynchronous batch iteration of arrays returning promises",
+  "description": "Asynchronous batch iteration of arrays using promises",
   "main": "src/batch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
