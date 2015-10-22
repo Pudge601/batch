@@ -49,11 +49,23 @@ var Batch = {
         });
     },
 
+    filter: function(items, fn) {
+        var results = [];
+        return Batch.forEach(items, function (item, i, arr) {
+            if (fn(item, i, arr)) {
+                results.push(item);
+            }
+        }).then(function () {
+            return results;
+        });
+    },
+
     applyToArray: function() {
         var methods = {
                 batchForEach: 'forEach',
                 batchMap: 'map',
-                batchReduce: 'reduce'
+                batchReduce: 'reduce',
+                batchFilter: 'filter'
             },
             applyMethod = function(methodName, actualMethod) {
                 Array.prototype[methodName] = function() {
